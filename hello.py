@@ -1,11 +1,11 @@
-from flask import Flask
+rom flask import Flask
 
 app = Flask (__name__)
 
 @app.route('/')
 def say_hello():
      return  '''
-     <p>CONAS ATA TU?<p>  
+     <p> DIA DHUIT AR MAIDIN!<p>  
      <p><a href="/about">About this application</a><p>
       '''
 
