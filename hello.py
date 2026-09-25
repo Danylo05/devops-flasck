@@ -21,6 +21,16 @@ def about():
      '''
 
 
+@app.route('/contact')
+def contact():
+    return '''
+    <p>Feel free to reach out via email:<p>
+    <p><strong>your.email@example.com</strong><p>
+    <p><a href="/">Back to home </a><p>
+    '''
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 
